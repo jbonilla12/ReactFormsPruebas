@@ -2,7 +2,9 @@ import React from 'react'
 
 const FormBootstrap = () => {
   return (
-    <div>FormBootstrap</div>
+    <form>
+      Bootstrap
+    </form>
   )
 }
 
