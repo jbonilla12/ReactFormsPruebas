@@ -1,5 +1,6 @@
 import React from "react";
 import FormBootstrap from "./components/FormBootstrap";
+import FormularioFormik from "./components/FormularioFormik";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
           <FormBootstrap/>
         </div>
         <div className="col-md-6 col-lg-6 col-sm-12 mt-3 p-3">
-          Prueba 2
+          <FormularioFormik/>
         </div>
       </div>
     </div>

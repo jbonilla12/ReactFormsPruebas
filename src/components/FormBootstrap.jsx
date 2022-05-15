@@ -4,31 +4,16 @@ import Button from 'react-bootstrap/Button'
 import FloatingLabel from 'react-bootstrap/FloatingLabel'
 
 const FormBootstrap = () => {
-  const [liga, setLiga]= React.useState('')
-  const ligas = [
-    {id:'udsfnjdsnf', nombreLiga:'Liga Española'},
-    {id:'udsfkrirkkmtm', nombreLiga:'Liga Italiana'},
-    {id:'iksmshyeel', nombreLiga:'Liga Alemana'},
-  ]
-
-  const prueba=e=>{
-    e.preventDefault()
-    console.log(liga)
-  }
-  return (
-    <Form onSubmit={prueba}>
+  
+return (
+    <Form>
       <h2>Nuevo</h2>
       <Form.Group className="mb-3">
         <Form.Select aria-label="Default select example">
           <option>Open this select menu</option>
-          {
-            ligas.map(item=>(
-              <option 
-              onChange={e=>setLiga(e.target.value)}
-              value={item.id}
-              key={item.id}>{item.nombreLiga}</option>
-            ))
-          }
+          <option value="1">Barcelona</option>
+          <option value="2">Juventus</option>
+          <option value="3">Bayern Munich</option>
         </Form.Select>
       </Form.Group>
       <Form.Group className="mb-3">
