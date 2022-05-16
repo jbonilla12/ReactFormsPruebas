@@ -12,6 +12,7 @@ function App() {
         </div>
         <div className="col-md-6 col-lg-6 col-sm-12 mt-3 p-3">
           <FormularioFormik/>
+          <p>Modificacion</p>
         </div>
       </div>
     </div>
