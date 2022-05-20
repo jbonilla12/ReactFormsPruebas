@@ -14,6 +14,7 @@ function App() {
           <FormularioFormik/>
           <p>Modificacion</p>
         </div>
+        <p>Este es el parrafo creado deesde workspace2</p>
       </div>
     </div>
   );
